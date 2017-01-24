@@ -78,6 +78,8 @@ public class Calculator {
 		secondOpperand = input.nextInt();
 
 		return firstOpperand / secondOpperand;
+		
 	}
-
+	
+	//hello
 }
