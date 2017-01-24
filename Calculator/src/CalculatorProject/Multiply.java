@@ -8,7 +8,7 @@ public class Multiply {
 	@Test
 	public void test() {
 		Calculator test = new Calculator();
-		int output = test.multiply(4,4);
+		int output = test.multiply(5,4);
 		assertEquals(16, output);
 	}
 
