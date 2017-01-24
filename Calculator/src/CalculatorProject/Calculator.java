@@ -48,7 +48,10 @@ public void startCalculator(){
 
 public int add(int i, int j)
 {
-	
+	System.out.println("Enter the first number :");
+	firstOpperand = input.nextInt();
+	System.out.println("Enter the second number :");
+	secondOpperand = input.nextInt();
 	return firstOpperand + secondOpperand;
 	
 }
