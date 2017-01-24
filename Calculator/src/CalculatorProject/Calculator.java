@@ -72,6 +72,10 @@ public class Calculator {
 	}
 
 	public int divide(int firstOpperand, int secondOpperand) {
+		System.out.println("Enter the first number :");
+		firstOpperand = input.nextInt();
+		System.out.println("Enter the second number :");
+		secondOpperand = input.nextInt();
 
 		return firstOpperand / secondOpperand;
 	}
