@@ -41,16 +41,25 @@ public class Calculator {
 
 		}
 
-	}
 
-	public int add(int i, int j) {
-
-		System.out.println("Enter the first number :");
+	
+public int add(int i, int j)
+{
+  System.out.println("Enter the first number :");
 		firstOpperand = input.nextInt();
 		System.out.println("Enter the second number :");
 		secondOpperand = input.nextInt();
 
 		return firstOpperand + secondOpperand;
+	
+}
+public int subtract(int firstOpperand, int secondOpperand) 
+{
+	
+	return firstOpperand - secondOpperand;
+
+
+		
 
 	}
 
