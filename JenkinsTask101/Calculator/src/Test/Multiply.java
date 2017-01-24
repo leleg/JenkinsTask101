@@ -1,0 +1,17 @@
+package Test;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import CalculatorProject.Calculator;
+
+public class Multiply {
+
+	@Test
+	public void test() {
+		Calculator test = new Calculator();
+		int output = test.multiply(4,4);
+		assertEquals(16, output);
+	}
+
+}
