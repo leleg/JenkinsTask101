@@ -8,8 +8,8 @@ public class Multiply {
 	@Test
 	public void test() {
 		Calculator test = new Calculator();
-		int output = test.multiply(5,4);
-		assertEquals(20, output);
+		int output = test.multiply(5,5);
+		assertEquals(25, output);
 	}
 
 }

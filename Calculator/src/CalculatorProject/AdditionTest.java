@@ -8,8 +8,8 @@ public class AdditionTest {
 	@Test
 	public void test() {
 		Calculator test = new Calculator();
-		int output = test.add(5,4);
-		assertEquals(9, output);
+		int output = test.add(5,5);
+		assertEquals(10, output);
 		}
 
 }
