@@ -9,7 +9,7 @@ public class Multiply {
 	public void test() {
 		Calculator test = new Calculator();
 		int output = test.multiply(5,4);
-		assertEquals(16, output);
+		assertEquals(20, output);
 	}
 
 }

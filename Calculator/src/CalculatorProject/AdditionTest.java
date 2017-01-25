@@ -9,7 +9,7 @@ public class AdditionTest {
 	public void test() {
 		Calculator test = new Calculator();
 		int output = test.add(5,4);
-		assertEquals(7, output);
+		assertEquals(9, output);
 		}
 
 }

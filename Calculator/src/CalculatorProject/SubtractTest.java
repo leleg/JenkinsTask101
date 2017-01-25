@@ -10,7 +10,7 @@ public class SubtractTest {
 	public void test() {
 		Calculator test = new Calculator();
 		int output = test.subtract(5, 4);
-		assertEquals(3, output);
+		assertEquals(1, output);
 	}
 
 }
