@@ -62,20 +62,11 @@
             <classpath refid="Calculator.classpath"/>
         </junit>
     </target>
-    <target name="AdditionTest">
+    <target name="SubtractTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="CalculatorProject.AdditionTest" todir="${junit.output.dir}"/>
-            <jvmarg line="-ea"/>
-            <classpath refid="Calculator.classpath"/>
-        </junit>
-    </target>
-    <target name="Divide">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="CalculatorProject.Divide" todir="${junit.output.dir}"/>
+            <test name="CalculatorProject.SubtractTest" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
             <classpath refid="Calculator.classpath"/>
         </junit>
@@ -89,11 +80,11 @@
             <classpath refid="Calculator.classpath"/>
         </junit>
     </target>
-    <target name="SubtractTest">
+    <target name="AdditionTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="CalculatorProject.SubtractTest" todir="${junit.output.dir}"/>
+            <test name="CalculatorProject.AdditionTest" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
             <classpath refid="Calculator.classpath"/>
         </junit>
@@ -103,6 +94,15 @@
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="CalculatorProject.AllTestss" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Calculator.classpath"/>
+        </junit>
+    </target>
+    <target name="Divide">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="CalculatorProject.Divide" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
             <classpath refid="Calculator.classpath"/>
         </junit>
