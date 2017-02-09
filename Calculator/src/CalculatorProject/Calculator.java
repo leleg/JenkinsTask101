@@ -81,6 +81,8 @@ public class Calculator {
 		
 	}
 	public int squareRoot(int x){
+		System.out.println("Enter a number:");
+		firstOpperand = input.nextInt();
 		return x*x;
 		
 	}
