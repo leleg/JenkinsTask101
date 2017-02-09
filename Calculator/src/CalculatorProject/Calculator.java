@@ -80,8 +80,12 @@ public class Calculator {
 		return firstOpperand / secondOpperand;
 		
 	}
-	
+	public int squareRoot(int x){
+		return x*x;
+		
+	}
+}
 	//helloJenkins
 	//Is it working?
 	
-}
+
